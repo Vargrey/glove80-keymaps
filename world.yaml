@@ -2,10 +2,10 @@ precedence: [LSFT, LALT, RALT, LCTL, RCTL, RSFT] # latter overrides former: RSFT
 
 transforms:
   I: { base: acute,  LCTL: diaeresis, RCTL: circumflex, RSFT: grave                                 }
-  E: { base: acute,  LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   RALT: ae                     }
-  A: { base: acute,  LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: tilde,   RALT: ring    }
+  E: { base: ae,  LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   RALT: acute                     }
+  A: { base: ring,  LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: tilde,   RALT: acute    }
   Y: { base: acute,  LCTL: diaeresis                                                                }
-  O: { base: acute,  LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: tilde,   RALT: slash   }
+  O: { base: slash,  LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: tilde,   RALT: acute   }
   U: { base: acute,  LCTL: diaeresis, RCTL: circumflex, RSFT: grave                                 }
   quotes_left:
      { base: angle,  LCTL: curly,     RCTL: low,        RSFT: grave,   LALT: corner1, RALT: corner2 }
